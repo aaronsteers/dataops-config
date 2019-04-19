@@ -3,9 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.3.1",
+    "downloadjs": "^1.4.7",
+    "js-yaml": "^3.13.1",
+    "prismjs": "^1.16.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "react-simple-code-editor": "^0.9.10"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,5 +26,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@types/prismjs": "^1.16.0"
+  }
 }
